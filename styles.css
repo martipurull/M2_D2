@@ -1,3 +1,8 @@
+body {
+    padding-top: 50px;
+    background-color: #d3d3d3;
+}
+
 .logo-img {
     width: 30px;
     height: 30px;
@@ -7,7 +12,8 @@
     width: 75%;
     height: 100%;
     margin: 20px auto;
-    border: 2px solid black;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
 }
 
 .album-cover {
@@ -19,4 +25,8 @@ footer {
     background-color: darkgrey;
     text-align: center;
     margin: auto;
+}
+
+.card {
+    height: 100%;
 }
