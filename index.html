@@ -13,10 +13,29 @@
 
 <body>
     <header>
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">FavAlb</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#bio">Bio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mybest">My Best</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myworst">My Worst</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main class="container">
-        <h1>Marti's Favourite Albums</h1>
+        <h1 id="bio">Marti's Favourite Albums</h1>
         <div class="row mt-5 mb-5">
             <div class="col-12 col-md-6">
                 <h2>Who am I?</h2>
@@ -35,7 +54,7 @@
         </div>
         <div class="row justify-content-around mt-5 mb-5">
             <div class="col-6 mt-2">
-                <h3>These are my favourite albums</h3>
+                <h3 id="mybest">These are my favourite albums</h3>
             </div>
         </div>
         <div class="row">
